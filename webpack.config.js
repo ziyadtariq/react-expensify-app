@@ -1,6 +1,5 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const toDelete = 'delete this line';
 
 module.exports = (env) => {
   const isProduction = env === 'production';
