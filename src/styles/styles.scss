@@ -1,8 +1,8 @@
 @import './base/settings';
 @import './base/base';
 @import './components/box-layout';
-@import './components/button.scss';
-@import './components/header.scss';
+@import './components/button';
+@import './components/header';
 @import './components/content-container';
 @import './components/page-header';
 @import './components/input-group';
@@ -11,4 +11,3 @@
 @import './components/visibility';
 @import './components/list';
 @import './components/loader';
-
