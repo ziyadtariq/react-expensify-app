@@ -7,10 +7,10 @@ import { startSetExpenses } from './actions/expenses';
 import { login, logout } from './actions/auth';
 import getVisibleExpenses from './selectors/expenses';
 import 'normalize.css/normalize.css';
-import './styles/styles.scss';
+import './styles/Styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase';
-import LodingPage from './components/LodingPage';
+import LoadingPage from './components/LoadingPage';
 
 const store = configureStore();
 
@@ -27,7 +27,7 @@ const renderApp = () => {
   }
 };
 
-ReactDOM.render(<LodingPage/>, document.getElementById('app'));
+ReactDOM.render(<LoadingPage/>, document.getElementById('app'));
 
 
 
